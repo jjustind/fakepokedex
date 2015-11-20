@@ -16,6 +16,7 @@
 		D0E205541BFD814100A518F8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205531BFD814100A518F8 /* Pokemon.swift */; };
 		D0E205571BFD8B6900A518F8 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205561BFD8B6900A518F8 /* PokeCell.swift */; };
 		D0E205591BFEC23D00A518F8 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205581BFEC23D00A518F8 /* csv.swift */; };
+		D0E2055E1BFECA4700A518F8 /* pokemonsolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E2055D1BFECA4700A518F8 /* pokemonsolid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0E205531BFD814100A518F8 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		D0E205561BFD8B6900A518F8 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		D0E205581BFEC23D00A518F8 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		D0E2055D1BFECA4700A518F8 /* pokemonsolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemonsolid.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		D0E2055C1BFEC3B900A518F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0E2055D1BFECA4700A518F8 /* pokemonsolid.ttf */,
 				D0E2054A1BFD7D4200A518F8 /* Info.plist */,
 				D0E205501BFD800500A518F8 /* pokemon.csv */,
 			);
@@ -174,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E2055E1BFECA4700A518F8 /* pokemonsolid.ttf in Resources */,
 				D0E205491BFD7D4200A518F8 /* LaunchScreen.storyboard in Resources */,
 				D0E205461BFD7D4200A518F8 /* Assets.xcassets in Resources */,
 				D0E205511BFD800500A518F8 /* pokemon.csv in Resources */,

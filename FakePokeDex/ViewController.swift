@@ -8,10 +8,13 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet weak var collection: UICollectionView!
     var pokemon = [Pokemon]()
+
     
     
     
@@ -40,6 +43,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             return UICollectionViewCell()
         }
     }
+    
+
     
     func parsePokemonCSV(){
         let path = NSBundle.mainBundle().pathForResource("pokemon", ofType: "csv")!
