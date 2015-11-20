@@ -14,6 +14,8 @@
 		D0E205491BFD7D4200A518F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E205471BFD7D4200A518F8 /* LaunchScreen.storyboard */; };
 		D0E205511BFD800500A518F8 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0E205501BFD800500A518F8 /* pokemon.csv */; };
 		D0E205541BFD814100A518F8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205531BFD814100A518F8 /* Pokemon.swift */; };
+		D0E205571BFD8B6900A518F8 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205561BFD8B6900A518F8 /* PokeCell.swift */; };
+		D0E205591BFEC23D00A518F8 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E205581BFEC23D00A518F8 /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D0E2054A1BFD7D4200A518F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E205501BFD800500A518F8 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		D0E205531BFD814100A518F8 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		D0E205561BFD8B6900A518F8 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		D0E205581BFEC23D00A518F8 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +62,12 @@
 		D0E2053D1BFD7D4200A518F8 /* FakePokeDex */ = {
 			isa = PBXGroup;
 			children = (
+				D0E2055C1BFEC3B900A518F8 /* Resources */,
+				D0E2055A1BFEC26200A518F8 /* Util */,
 				D0E205521BFD811F00A518F8 /* Model */,
-				D0E2053E1BFD7D4200A518F8 /* AppDelegate.swift */,
-				D0E205401BFD7D4200A518F8 /* ViewController.swift */,
-				D0E205421BFD7D4200A518F8 /* Main.storyboard */,
+				D0E205551BFD8B3F00A518F8 /* View */,
+				D0E2055B1BFEC39200A518F8 /* Controller */,
 				D0E205451BFD7D4200A518F8 /* Assets.xcassets */,
-				D0E205471BFD7D4200A518F8 /* LaunchScreen.storyboard */,
-				D0E2054A1BFD7D4200A518F8 /* Info.plist */,
-				D0E205501BFD800500A518F8 /* pokemon.csv */,
 			);
 			path = FakePokeDex;
 			sourceTree = "<group>";
@@ -76,6 +78,42 @@
 				D0E205531BFD814100A518F8 /* Pokemon.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D0E205551BFD8B3F00A518F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E205471BFD7D4200A518F8 /* LaunchScreen.storyboard */,
+				D0E205421BFD7D4200A518F8 /* Main.storyboard */,
+				D0E205561BFD8B6900A518F8 /* PokeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0E2055A1BFEC26200A518F8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D0E205581BFEC23D00A518F8 /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D0E2055B1BFEC39200A518F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2053E1BFD7D4200A518F8 /* AppDelegate.swift */,
+				D0E205401BFD7D4200A518F8 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D0E2055C1BFEC3B900A518F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2054A1BFD7D4200A518F8 /* Info.plist */,
+				D0E205501BFD800500A518F8 /* pokemon.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E205571BFD8B6900A518F8 /* PokeCell.swift in Sources */,
 				D0E205411BFD7D4200A518F8 /* ViewController.swift in Sources */,
 				D0E2053F1BFD7D4200A518F8 /* AppDelegate.swift in Sources */,
 				D0E205541BFD814100A518F8 /* Pokemon.swift in Sources */,
+				D0E205591BFEC23D00A518F8 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
